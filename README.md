@@ -1,5 +1,5 @@
 # GPT-2 for Generate VietNamese Poetry
-This repo is my project for  course: INT3507_6 UET Advanced Topics in Information Technology
+This repo is my project for  course UET: INT3507_6 Advanced Topics in Information Technology
 ## Installation
 * Method 1: Clone code in this repo and install file requeirements.txt then run app.py: 
 ```
