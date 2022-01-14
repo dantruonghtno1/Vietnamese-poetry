@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thơ Việt - Bảo tồn phát huy văn hóa Việt</title>
+	<link rel="stylesheet"  href="/static/css/style.css?ver=27">
+    <!-- <link rel="stylesheet" href="/static//css/style.css"> -->
+	
+</head>
+<body>
+    <div class="content">
+		<section class="section-1">
+			<div class="logo-header">
+				<img src="/static/img/logo1.png" class="logo"> 
+				<p class="logo-title1">THƠ VIỆT</p>
+				<p class="logo-title2">BẢO TỒN - PHÁT HUY VĂN HÓA VIỆT</p>            
+			</div>
+
+			<form method="POST" enctype="multipart/form-data"><br><br>
+				<div class="s-box">
+					<div class="search-input">
+						<img src="/static/img/search.svg" class="search-icon">
+						<input type="text" value="{{text}}" class="s-input" id="input" name="input">						
+					</div>
+					<input type="submit" class="s-btn" value="Thơ 5 chữ" id="4chu" name="submit_button">
+					<input type="submit" class="s-btn" value="Thơ 7 chữ" id="5chu" name="submit_button">
+					<input type="submit" class="s-btn" value="Thơ 8 chữ" id="7chu" name="submit_button">
+					<input type="submit" class="s-btn" value="Thơ lục bát" id="lucbat" name="submit_button">
+				</div>
+				<div class="result-all">
+					<div class="result">
+						{% if thetho == "lucbat" %}
+
+	<pre class="lucbat">
+{{tho}}
+	</pre>
+						{% else %} 
+	<pre class="normal">
+{{tho}}
+	</pre>
+						{% endif %}
+					</div>
+
+					<div id="loader">
+					<div class="loadingio-spinner-interwind-hq5315ar6x7"><div class="ldio-66kraqf9ed5">
+						<div><div><div><div></div></div></div><div><div><div></div></div></div></div>
+					</div></div>
+					</div>
+				</div>
+			</form>
+		
+		</section>
+
+		<footer>
+			
+		</footer>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			var loader = document.getElementById("loader");
+			window.addEventListener("load", function(){
+				loader.style.display="none";
+			});
+		</script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap" rel="stylesheet">
+
+	</div>  
+
+</body>
+</html>

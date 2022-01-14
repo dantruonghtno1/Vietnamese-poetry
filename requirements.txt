@@ -1,0 +1,4 @@
+# pip install torch==1.7.1
+flask-cors
+transformers
+flask
