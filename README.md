@@ -8,7 +8,7 @@ python app.py
 ```
 * Method 2: Clone code and run Dockerfille
 * Method 3: Pull container in docker hub https://hub.docker.com/repository/docker/dantruonghtno1/poem
-## Checkphttps:
+## Ch:
 https://drive.google.com/file/d/1rhBjFGM_t49o_Ou7m2Ttp_43mJEnxtFL/view
 ## Result:
 Refer this link: https://docs.google.com/document/d/1sY8Tu338GKSADCaPOD5k6xwEup9CImZg1dTlMnnN8Z8/edit
